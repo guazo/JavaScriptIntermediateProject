@@ -1,0 +1,177 @@
+/* Apply a simple style to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #3085C3;
+    color: #F4E869;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Style the form section */
+#task-form {
+    margin-bottom: 20px;
+}
+
+/* Style the form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style the task list section */
+#task-list {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style the task list items */
+#task-list-ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the edit and delete buttons */
+li button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+li button:hover {
+    background-color: #555;
+}
+/* Style for the progress container */
+#progress-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Style for individual status bars */
+.status-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Style for status labels */
+.status-label {
+    flex: 1;
+    font-weight: bold;
+}
+
+/* Style for the status bar inner container */
+.status-bar-inner {
+    flex: 4;
+    background-color: #eee;
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+}
+
+/* Style for the status bar fill */
+.status-bar-fill {
+    border-radius: 5px;
+    height: 100%;
+    background-color: #3498db;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Style for the status percentage text */
+.status-percentage {
+    flex: 1;
+    text-align: right;
+    margin-left: 10px;
+}
+/* Style for To Do tasks */
+.todo {
+    background-color: #ccc;
+}
+
+/* Style for In Progress tasks */
+.progress {
+    background-color: #8bc34a; /* Green */
+}
+
+/* Style for Done tasks */
+.done {
+    background-color: #2196f3; /* Blue */
+}
+/* Style for default (gray) progress bar */
+.default {
+    background-color: #ccc;
+}
+
+/* Style for To Do progress bar */
+.todo {
+    background-color: #ccc;
+}
+
+/* Style for In Progress progress bar */
+.progress {
+    background-color: #8bc34a; /* Green */
+}
+
+/* Style for Done progress bar */
+.done {
+    background-color: #2196f3; /* Blue */
+}
+footer{
+    padding: 20px;
+    color: #2196f3;
+    text-align: center;
+}
